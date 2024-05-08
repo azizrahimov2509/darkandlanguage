@@ -1,0 +1,34 @@
+header{
+    border-bottom:2px solid #45a049;
+}
+
+.header-container img{
+    width: 200px;
+    height: 60px;
+  }
+
+  .select-style {
+    padding: 8px 16px;
+    border: 2px solid #4CAF50; 
+    border-radius: 8px; 
+    background-color:var(--header-bg);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    font-size: 16px; 
+    color: var( --main-text); 
+    cursor: pointer; 
+    outline: none; 
+}
+
+.select-style:hover {
+    border-color: #45a049; /* Изменить цвет рамки при наведении */
+}
+
+.select-style:focus {
+    border-color: #45a049; /* Изменить цвет рамки при фокусе */
+    box-shadow: 0 0 8px rgba(69,160,73,.5); /* Яркая тень при фокусе */
+}
+
+/* Стили для option */
+.select-style option {
+    padding: 10px; /* Добавить отступы для элементов списка */
+}
